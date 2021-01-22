@@ -4,8 +4,8 @@ CS-118 Theory/Lab Programming Fundamentals Semester Project
 
 Team Members:
 
-  Muhammad Zain Ul Abiddin
+    Muhammad Zain Ul Abiddin
   
-  Kanza Batool
+    Kanza Batool
   
-  Fawayya Rafi
+    Fawayya Rafi
