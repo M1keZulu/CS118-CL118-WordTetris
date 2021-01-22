@@ -107,7 +107,6 @@ void initialize_wordlist(){
 }
 
 void delay(int ms){
-    long del;
     clock_t start, end;
 	end = clock();
     while((start-end) < ms)
@@ -203,7 +202,7 @@ void print_game(float del, int mode){
 		if(kbhit()){
             local[y] = getch();
         	
-        	if(local[y] == 27){
+        	if(local[y] == 27){  
         		score = -2;
         		break;
 			}
