@@ -1,18 +1,24 @@
-?Hamza Ahmed
-21
-Free
+?Shayan Shahid
+15
+Easy
 ?Muhammad Zain
-11
+21
 Easy
 ?Imran Khan
 6
 Easy
 ?Fawayya Rafi
-5
+2
 Advanced
+?Hamza Ahmed
+5
+Free
 ?Kanza Batool
-1
+3
 Free
 ?Donald Trump
 1
 Easy
+?Muhammad Zain
+0
+Free

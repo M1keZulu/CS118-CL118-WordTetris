@@ -95,12 +95,12 @@ void initialize_wordlist(){
 	int x;
 	FILE *fp;
 	fp = fopen("wordlist.txt" , "r");
-		for(x=1;x<7000;x++){
+		for(x=0;x<7000;x++){
 			fgets(wordlist[x], 50, fp);
 		}
 	fclose(fp);
 	fp = fopen("bonus.txt", "r");
-		for(x=1;x<105;x++){
+		for(x=0;x<105;x++){
 			fgets(bonus[x], 50, fp);
 		}
 	fclose(fp);
@@ -152,7 +152,6 @@ void initialize_game(){
 		printf("Lives -               ");
 	}
 	white();
-
 	
 }
 
@@ -357,7 +356,18 @@ void display_highscore(){
 	printf(" Player Name\t\tScore\t\tMode\n");
 	printf(" -----------\t\t-----\t\t----\n");
 	for(x=0;x<count;x++){
-		printf(" %s\t\t%d\t\t%s\n", h[x].name, h[x].score, h[x].mode);
+		if(strcmp(h[x].mode, "Advanced")==0)
+			printf(" %s\t\t%d\t\t%s\n", h[x].name, h[x].score, h[x].mode);
+	}
+	printf(" ------------------------------------------------ \n");
+	for(x=0;x<count;x++){
+		if(strcmp(h[x].mode, "Easy")==0)
+			printf(" %s\t\t%d\t\t%s\n", h[x].name, h[x].score, h[x].mode);
+	}
+	printf(" ------------------------------------------------ \n");
+	for(x=0;x<count;x++){
+		if(strcmp(h[x].mode, "Free")==0)
+			printf(" %s\t\t%d\t\t%s\n", h[x].name, h[x].score, h[x].mode);
 	}
 	printf("\nPress any key to continue...");
 	getch();
