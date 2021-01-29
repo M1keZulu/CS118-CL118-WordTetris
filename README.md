@@ -9,3 +9,5 @@ Team Members:
     Kanza Batool
   
     Fawayya Rafi
+
+Compatible with Windows 10/7. Colors will not work with Windows 7 due to no native support for ANSI Color Codes.
