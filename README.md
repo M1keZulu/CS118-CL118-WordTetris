@@ -1,6 +1,6 @@
 # WordGame-Programming-Fundamentals
 
-CS-118 Theory/Lab Programming Fundamentals Semester Project
+CS-118 Theory/CL118 Lab Programming Fundamentals Semester Project
 
 Team Members:
 
